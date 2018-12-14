@@ -43,7 +43,7 @@ class App extends Component {
           <Jumbo expandSideBar={this.expandSideBar}/>
           <Body expandSideBar={this.expandSideBar}/>
         </Col>
-        {this.state.expanded? <Col xs="4" id="SideBar">
+        {this.state.expanded? <Col id="SideBar">
           <Extension selected={this.state.selected} expandSideBar={this.expandSideBar}/>
         </Col>: null
         }

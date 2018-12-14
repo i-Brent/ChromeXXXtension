@@ -5,11 +5,14 @@ class ExtensionSearch extends React.Component{
   render() {
     return (
       <div className="Search">
-        <Row id='SearchLabel'>
-          <h5 className="SearchStyle">{this.props.selected}</h5>
-          <p></p>
-          <i className="material-icons right-align" onClick={e => {this.props.expandSideBar()}}>remove_circle_outline</i>
-        </Row>
+        <div>
+          <div id="searchLabel">
+          	<h5 className="SearchStyle">"{this.props.selected}"</h5>
+          </div>
+          <div id="clearSearch">
+          	<i className="material-icons middle-align" onClick={e => {this.props.expandSideBar()}}>closed</i>
+          </div>
+        </div>
       </div>
     )
   }

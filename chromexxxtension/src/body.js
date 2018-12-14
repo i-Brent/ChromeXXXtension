@@ -8,11 +8,7 @@ class Body extends React.Component{
           <p>MA: 11/13 --> Extended 11/26</p>
           <p>MB: 11/13 --> Extended 11/26</p>
           <p>MC: 11/13 --> Extended 11/26</p>
-        </Row>
-        <Row>
           <p>Focus: Help the class identify Herbivores, Omnivores, and Carnivores that you could find in California</p>
-        </Row>
-        <Row>
           <p>Complete the Following in groups of 1-2(if in a group inly 1 doc needs to be completed):</p>
           <p>-Go to the attach document and look for the pages your Block has been assigned</p>
           <p>MA: pages 5-11</p>

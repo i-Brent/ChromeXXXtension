@@ -47,11 +47,6 @@ table {
 
 /* ICONS */
 
-
-.edmodoLogo {
-	background-image: url ('/img/ico-edmodo-logo.png');
-}
-
 /* TEXT */
 .smallText {
 	font-size: 80%;
@@ -92,7 +87,7 @@ table {
 
 #classTitle {
 	float: left;
-	width: 600px;
+	width: auto;
 }
 
 #classApps {
@@ -147,39 +142,95 @@ table {
   height: 100em;
 }
 
-#SearchLabel{
 
-}
-
-#WikiResult{
-  border-radius: 20px;
-  border: 1px solid #c1b8b8;
-  padding: 20px;
-  margin-right: 5px;
-}
-
-#AskMoQuestions{
-  border-radius: 20px;
-  border: 1px solid #c1b8b8;
-  padding: 20px;
-  margin-right: 5px;
-}
-#AskMoArticle{
-  border-radius: 20px;
-  border: 1px solid #c1b8b8;
-  padding: 20px;
-  margin-right: 5px;
-}
-
-#AskMoQ {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #c1b8b8;
-}
+/* SIDEBAR */
 
 #SideBar{
   background-color: white;
+  width:300px;
+  padding:0;
 }
+
+.extensionHeader {
+	background-color: #0055FF;
+	padding: 0;
+	height: 48px;
+	width: 100%;
+}
+
+#searchLabel {
+	position: relative;
+	float:left;
+	padding:20px;
+}
+
+#clearSearch {
+	position: relative;
+	float:left;
+	margin-top: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+#Results {
+	position: relative;
+	width: 260px;
+	margin-top: 60px;
+	padding: 6px 20px;
+}
+
+#thumb, img {
+	margin-top: -6px;
+	width: 258px;
+	border-radius: 8px;
+}
+
+.resultTitle {
+	font-size:smaller;
+	font-weight: bold;
+	padding: 2px 12px 12px 12px;
+}
+
+#WikiResult {
+		width: 260px;
+
+  border-radius: 0;
+  border: 1px solid #eee;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+
+#AskMoArticle {
+	width: 260px;
+  border-radius: 0;
+  border: 1px solid #eee;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.questionsTitle {
+	font-weight: bold;
+	font-size: smaller;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 12px;
+}
+
+
+#AskMoQuestions{
+	width: 260px;
+  border-radius: 0;
+  border: 1px solid #eee;
+  padding: 12px;
+  padding-bottom: 0;
+}
+
+#AskMoQ {
+  font-size: smaller;
+  font-weight: medium;
+}
+
+
 
 
 
