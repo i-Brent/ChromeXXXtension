@@ -1,0 +1,91 @@
+#Navibar {
+  background-color: #5b08ad;
+  color: white;
+  padding-bottom: 12px;
+  margin-bottom: 0px;
+  z-index: 12;
+}
+
+#Jumbo {
+  background-color: #8606ad;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+#MainCol{
+  padding-right: 0px;
+  background-color: #e5c2ef;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  height: 100em;
+}
+
+#SearchLabel{
+
+}
+#WikiResult{
+  border-radius: 20px;
+  border: 1px solid #c1b8b8;
+  padding: 20px;
+  margin-right: 5px;
+}
+
+#AskMoQuestions{
+  border-radius: 20px;
+  border: 1px solid #c1b8b8;
+  padding: 20px;
+  margin-right: 5px;
+}
+#AskMoArticle{
+  border-radius: 20px;
+  border: 1px solid #c1b8b8;
+  padding: 20px;
+  margin-right: 5px;
+}
+
+#AskMoQ {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c1b8b8;
+}
+
+#Body{
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 0px;
+}
+
+#SideBar{
+  background-color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
