@@ -8,8 +8,8 @@ class Extension extends React.Component {
     return (
       <div>
         <ExtensionHeader/>
-        <ExtensionSearch which={this.props.which} expandSideBar={this.props.expandSideBar}/>
-        <ExtensionResultList which={this.props.which}/>
+        <ExtensionSearch selected={this.props.selected} expandSideBar={this.props.expandSideBar}/>
+        <ExtensionResultList selected={this.props.selected}/>
       </div>
     )
   }
