@@ -8,17 +8,17 @@ class ExtensionResult extends React.Component{
     (
       <div id="Results">
         <div id="AskMoArticle">
-          <iframe noscroll id="thumb" src={this.props.related[0].thumbnail_url}>
+          <iframe scrolling="no" id="thumb" src={this.props.related[0].thumbnail_url}>
           </iframe>
           <div className="resultTitle">{this.props.related[0].title}</div>
         </div>
         <div id="AskMoArticle">
-          <iframe noscroll id="thumb" src={this.props.related[1].thumbnail_url}>
+          <iframe scrolling="no" id="thumb" src={this.props.related[1].thumbnail_url}>
           </iframe>
           <div className="resultTitle">{this.props.related[1].title}</div>
         </div>
         <div id="AskMoArticle">
-          <iframe noscroll id="thumb" src={this.props.related[2].thumbnail_url}>
+          <iframe scrolling="no" id="thumb" src={this.props.related[2].thumbnail_url}>
           </iframe>
           <div className="resultTitle">{this.props.related[1].title}</div>
         </div>
