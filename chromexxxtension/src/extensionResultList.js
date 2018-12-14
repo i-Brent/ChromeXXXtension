@@ -4,7 +4,6 @@ import ExtensionResult from './extensionResult'
 class ExtensionResultList extends React.Component {
   constructor(props){
     super(props)
-    this.fetchAskMoQuestion = this.fetchAskMoQuestion.bind(this)
     this.componentDidMount = this.componentDidMount.bind(this)
     this.state={
       askMo: [],
@@ -28,7 +27,6 @@ class ExtensionResultList extends React.Component {
     let question = await this.fetchAskMoQuestion()
     let related = await this.fetchAskMoRelated()
     related = related.cards.filter(card => card.result_type === "Youtube")
-    console.log(related);
     this.setState({
       askMo: question.questions,
       related: related,
