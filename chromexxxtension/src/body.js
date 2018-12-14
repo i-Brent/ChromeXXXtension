@@ -15,10 +15,7 @@ class Body extends React.Component{
           <p>MC: 11/13 --> Extended 11/26</p>
         </Row>
         <Row>
-          <p>Focus: Help the class identify <span
-          onMouseUp={e => this.props.expandSideBar(e, 'Herbivores')}>Herbivores</span>, <span
-          onMouseUp={e => this.props.expandSideBar(e, 'Omnivores')}>Omnivores,</span> and <span
-          onMouseUp={e => this.props.expandSideBar(e, 'Carnivores')}>Carnivores</span> that you could find in California</p>
+          <p>Focus: Help the class identify Herbivores, Omnivores, and Carnivores that you could find in California</p>
         </Row>
         <Row>
           <p>Complete the Following in groups of 1-2(if in a group inly 1 doc needs to be completed):</p>

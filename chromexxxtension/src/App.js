@@ -14,21 +14,29 @@ class App extends Component {
     super(props)
     this.state={
       expanded:false,
-      which:''
+      selected:''
     }
     this.expandSideBar = this.expandSideBar.bind(this)
+    this.handleBodyHighlight = this.handleBodyHighlight.bind(this)
   }
 
-  expandSideBar(e, which) {
+  handleBodyHighlight(e) {
     e.preventDefault()
-    console.log('logo', which);
+    let selected = window.getSelection().toString()
+    if(selected !== ''){
+      this.expandSideBar(selected)
+    }
+  }
+
+  expandSideBar(selected = '') {
+    console.log('logo', selected);
     let expanded = !this.state.expanded
-    this.setState({expanded, which})
+    this.setState({expanded, selected})
   }
 
   render() {
     return (
-      <div className="App">
+      <div className="App" onMouseUp={e => this.handleBodyHighlight(e)}>
       <Row>
         <Col id="MainCol" xs={this.state.expanded? '8': '12'}>
           <Navi/>
@@ -36,7 +44,7 @@ class App extends Component {
           <Body expandSideBar={this.expandSideBar}/>
         </Col>
         {this.state.expanded? <Col xs="4" id="SideBar">
-          <Extension which={this.state.which} expandSideBar={this.expandSideBar}/>
+          <Extension selected={this.state.selected} expandSideBar={this.expandSideBar}/>
         </Col>: null
         }
         </Row>
