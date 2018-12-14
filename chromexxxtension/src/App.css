@@ -153,6 +153,10 @@ table {
 
 .extensionHeader {
 	background-color: #0055FF;
+	background-image: url('ico-edmodo-logo.png');
+	background-repeat: no-repeat;
+	background-size: 28px 29px;
+	background-position: center center;
 	padding: 0;
 	height: 48px;
 	width: 100%;
