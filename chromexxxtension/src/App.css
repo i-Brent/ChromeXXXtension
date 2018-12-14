@@ -174,15 +174,15 @@ table {
 
 #Results {
 	position: relative;
-	width: 260px;
+	width: 320px;
 	margin-top: 60px;
 	padding: 6px 20px;
 }
 
 #thumb, img {
 	margin-top: -6px;
-	width: 258px;
-	border-radius: 8px;
+	width: 318px;
+	border-radius: 8px 8px 0 0;
 }
 
 .resultTitle {
@@ -192,9 +192,9 @@ table {
 }
 
 #WikiResult {
-		width: 260px;
+		width: 320px;
 
-  border-radius: 0;
+  border-radius: 8;
   border: 1px solid #eee;
   padding: 0;
   margin-bottom: 16px;
@@ -202,8 +202,8 @@ table {
 
 
 #AskMoArticle {
-	width: 260px;
-  border-radius: 0;
+	width: 320px;
+  border-radius: 8;
   border: 1px solid #eee;
   padding: 0;
   margin-bottom: 16px;
@@ -218,8 +218,8 @@ table {
 
 
 #AskMoQuestions{
-	width: 260px;
-  border-radius: 0;
+width: 380px;
+  border-radius: 8;
   border: 1px solid #eee;
   padding: 12px;
   padding-bottom: 0;
